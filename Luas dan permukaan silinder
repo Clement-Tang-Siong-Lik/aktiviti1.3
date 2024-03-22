@@ -1,0 +1,10 @@
+pi=3.142
+#input
+jejari=float(input("Masukkan jejari tangki air:"))
+tinggi=float(input("Masukkan ketinggian tangki air:"))
+#proses
+luas=((pi*jejari**2)*2)+(2*pi*jejari*tinggi)
+isipadu=pi*jejari**2*tinggi
+#output
+print("Jumlah luas permukaan ialah",round(luas,2))
+print("Isi padu tangki air ialah",round(isipadu,2))
